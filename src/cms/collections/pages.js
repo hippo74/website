@@ -4,9 +4,14 @@ export const pages = {
   folder: 'src/content/pages',
   extension: 'mdx',
   format: 'frontmatter',
-  create: true,
-  delete: true,
+  create: false,
+  delete: false,
   fields: [
+    {
+      name: 'title',
+      label: 'Title',
+      widget: 'string'
+    },
     {
       name: 'body',
       label: 'Body',

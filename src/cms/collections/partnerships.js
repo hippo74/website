@@ -8,6 +8,11 @@ export const partnerships = {
   delete: true,
   fields: [
     {
+      name: 'title',
+      label: 'Title',
+      widget: 'string'
+    },
+    {
       name: 'body',
       label: 'Body',
       widget: 'markdown'

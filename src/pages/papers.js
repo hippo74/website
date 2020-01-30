@@ -4,8 +4,8 @@ import { graphql } from 'gatsby'
 import Markdown from '../components/markdown'
 
 export const query = graphql`
-  query Home {
-    mdx(frontmatter: { name: { eq: "home" } } ) {
+  query Papers {
+    mdx(frontmatter: { name: { eq: "papers" } } ) {
       frontmatter {
         title
       }
@@ -14,8 +14,8 @@ export const query = graphql`
   }
 `
 
-const Home = (props) => {
+const Papers = (props) => {
   return <Markdown post={props.data.mdx.body} />
 }
 
-export default Home
+export default Papers

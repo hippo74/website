@@ -8,6 +8,12 @@ export const pages = {
       file: 'src/content/pages/home.md',
       fields: [
         {
+          label: 'Name',
+          name: 'name',
+          widget: 'hidden',
+          default: 'home'
+        },
+        {
           name: 'title',
           label: 'Title',
           widget: 'string'
@@ -25,6 +31,17 @@ export const pages = {
       file: 'src/content/pages/papers.md',
       fields: [
         {
+          label: 'Name',
+          name: 'name',
+          widget: 'hidden',
+          default: 'papers'
+        },
+        {
+          name: 'title',
+          label: 'Title',
+          widget: 'string'
+        },
+        {
           name: 'text',
           label: 'Text',
           widget: 'text'
@@ -36,7 +53,7 @@ export const pages = {
           allow_add: true,
           fields: [{
             label: 'Papers',
-            name: 'author',
+            name: 'papers',
             widget: 'relation',
             collection: 'papers',
             searchFields: ['title'],
@@ -52,6 +69,17 @@ export const pages = {
       file: 'src/content/pages/work.md',
       fields: [
         {
+          label: 'Name',
+          name: 'name',
+          widget: 'hidden',
+          default: 'work'
+        },
+        {
+          name: 'title',
+          label: 'Title',
+          widget: 'string'
+        },
+        {
           name: 'text',
           label: 'Text',
           widget: 'text'
@@ -63,7 +91,7 @@ export const pages = {
           allow_add: true,
           fields: [{
             label: 'Work',
-            name: 'author',
+            name: 'work',
             widget: 'relation',
             collection: 'work',
             searchFields: ['title'],
@@ -79,6 +107,17 @@ export const pages = {
       file: 'src/content/pages/partnerships.md',
       fields: [
         {
+          label: 'Name',
+          name: 'name',
+          widget: 'hidden',
+          default: 'partnerships'
+        },
+        {
+          name: 'title',
+          label: 'Title',
+          widget: 'string'
+        },
+        {
           name: 'text',
           label: 'Text',
           widget: 'text'
@@ -90,7 +129,7 @@ export const pages = {
           allow_add: true,
           fields: [{
             label: 'Partnerships',
-            name: 'author',
+            name: 'partnerships',
             widget: 'relation',
             collection: 'partnerships',
             searchFields: ['title'],

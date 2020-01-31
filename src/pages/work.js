@@ -5,17 +5,17 @@ import Markdown from '../components/markdown'
 
 export const query = graphql`
   query Work {
-    mdx(frontmatter: { name: { eq: "work" } } ) {
+    markdownRemark(frontmatter: { name: { eq: "work" } } ) {
       frontmatter {
         title
       }
-      body
     }
   }
 `
 
 const Work = (props) => {
-  return <Markdown post={props.data.mdx.body} />
+  console.log(props)
+  return <Markdown post={props.data.markdownRemark} />
 }
 
 export default Work

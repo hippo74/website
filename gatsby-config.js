@@ -36,16 +36,7 @@ module.exports = {
         path: `${__dirname}/src/content/`
       }
     },
-    {
-      resolve: 'gatsby-plugin-mdx',
-      options: {
-        extensions: ['.mdx', '.md', '.markdown'],
-        defaultLayouts: {
-          content: require.resolve('./src/components/markdown.js')
-        }
-        // gatsbyRemarkPlugins: [],
-      }
-    },
+    'gatsby-transformer-remark',
 
     // design related
     'gatsby-plugin-sass',

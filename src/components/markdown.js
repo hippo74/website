@@ -1,16 +1,16 @@
 import React from 'react'
-import { MDXRenderer } from 'gatsby-plugin-mdx'
-import { MDXProvider } from '@mdx-js/react'
 
 const Markdown = (props) => {
+  console.log(props)
   return (
-    <MDXProvider>
-      <article>
-        <MDXRenderer>
-          {props.post}
-        </MDXRenderer>
-      </article>
-    </MDXProvider>
+    'testing'
+    // <MDXProvider>
+    //   <article>
+    //     <MDXRenderer>
+    //       {props.post}
+    //     </MDXRenderer>
+    //   </article>
+    // </MDXProvider>
   )
 }
 

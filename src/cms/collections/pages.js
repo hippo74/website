@@ -5,7 +5,7 @@ export const pages = {
     {
       label: 'Home',
       name: 'home',
-      file: 'src/content/pages/home.mdx',
+      file: 'src/content/pages/home.md',
       fields: [
         {
           name: 'title',
@@ -22,7 +22,7 @@ export const pages = {
     {
       label: 'Papers',
       name: 'papers',
-      file: 'src/content/pages/papers.mdx',
+      file: 'src/content/pages/papers.md',
       fields: [
         {
           name: 'text',
@@ -49,7 +49,7 @@ export const pages = {
     {
       label: 'Work',
       name: 'work',
-      file: 'src/content/pages/work.mdx',
+      file: 'src/content/pages/work.md',
       fields: [
         {
           name: 'text',
@@ -76,7 +76,7 @@ export const pages = {
     {
       label: 'Partnerships',
       name: 'partnerships',
-      file: 'src/content/pages/partnerships.mdx',
+      file: 'src/content/pages/partnerships.md',
       fields: [
         {
           name: 'text',

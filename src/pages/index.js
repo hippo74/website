@@ -5,17 +5,16 @@ import Markdown from '../components/markdown'
 
 export const query = graphql`
   query Home {
-    mdx(frontmatter: { name: { eq: "home" } } ) {
+    markdownRemark(frontmatter: { name: { eq: "home" } } ) {
       frontmatter {
         title
       }
-      body
     }
   }
 `
 
 const Home = (props) => {
-  return <Markdown post={props.data.mdx.body} />
+  return <Markdown post={props.data.markdownRemark} />
 }
 
 export default Home

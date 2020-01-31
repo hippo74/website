@@ -11,7 +11,7 @@ CMS.init({
     // site_url: 'https://ryanfiller.com',
     load_config_file: false,
     backend: {
-      name: 'github',
+      name: 'git-gateway',
       repo: 'hippo74/website',
       branch: 'master',
     },

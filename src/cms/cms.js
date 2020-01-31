@@ -8,10 +8,12 @@ import { partnerships } from './collections/partnerships'
 
 CMS.init({
   config: {
-    // site_url: 'https://ryanfiller.com',
+    site_url: 'https://brynabobick.netlify.com',
     load_config_file: false,
     backend: {
       name: 'git-gateway',
+      identity_url: 'https://brynabobick.netlify.com/.netlify/identity',
+      gateway_url: 'https://brynabobick.netlify.com/.netlify/git/github',
       repo: 'hippo74/website',
       branch: 'master',
     },

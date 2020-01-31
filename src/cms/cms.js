@@ -17,8 +17,8 @@ CMS.init({
       repo: 'hippo74/website',
       branch: 'master',
     },
-    media_folder: 'static/images',
-    public_folder: '/images',
+    media_folder: 'static/images/uploads',
+    public_folder: '/images/uploads',
     collections: [
       pages,
       papers,

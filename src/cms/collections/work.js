@@ -2,7 +2,7 @@ export const work = {
   label: 'Work',
   name: 'work',
   folder: 'src/content/work',
-  extension: 'mdx',
+  extension: 'md',
   format: 'frontmatter',
   create: true,
   delete: true,

@@ -2,7 +2,7 @@ export const partnerships = {
   label: 'Partnerships',
   name: 'partnerships',
   folder: 'src/content/partnerships',
-  extension: 'mdx',
+  extension: 'md',
   format: 'frontmatter',
   create: true,
   delete: true,

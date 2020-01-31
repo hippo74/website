@@ -2,7 +2,7 @@ export const papers = {
   label: 'Papers',
   name: 'papers',
   folder: 'src/content/papers',
-  extension: 'mdx',
+  extension: 'md',
   format: 'frontmatter',
   create: true,
   delete: true,

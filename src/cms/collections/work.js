@@ -15,7 +15,8 @@ export const work = {
     {
       name: 'description',
       label: 'Description',
-      widget: 'text'
+      widget: 'text',
+      required: false
     },
     {
       label: 'Image',

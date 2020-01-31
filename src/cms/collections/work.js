@@ -13,6 +13,11 @@ export const work = {
       widget: 'string'
     },
     {
+      name: 'description',
+      label: 'Description',
+      widget: 'text'
+    },
+    {
       label: 'Image',
       name: 'image',
       widget: 'image'

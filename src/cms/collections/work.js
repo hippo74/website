@@ -13,9 +13,15 @@ export const work = {
       widget: 'string'
     },
     {
-      name: 'body',
-      label: 'Body',
-      widget: 'markdown'
+      label: 'Image',
+      name: 'image',
+      widget: 'image'
+    },
+    {
+      label: 'Thumbnail',
+      name: 'thumbnail',
+      widget: 'image',
+      required: false
     }
   ]
 }

@@ -39,11 +39,18 @@ module.exports = {
     'gatsby-transformer-remark',
 
     // design related
-    'gatsby-plugin-sass',
     {
       resolve: 'gatsby-plugin-layout',
       options: {
         component: require.resolve('./src/components/_layout')
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        cssLoaderOptions: {
+          camelCase: false // to use BEM syntax
+        }
       }
     },
 

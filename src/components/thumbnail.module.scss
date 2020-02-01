@@ -1,0 +1,67 @@
+@import '../styles/variables.module.scss';
+
+.thumbnail {
+  display: block;
+  height: 300px;
+  width: 300px;
+  cursor: pointer;
+
+  &__image {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.lightbox {
+  transition: $transition;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  &--enterActive,
+  &--enterDone {
+    opacity: 1;
+  }
+
+  &--exitActive {
+    opacity: 0;
+  }
+
+  &__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+  }
+
+  &__image {
+    max-height: 50vh;
+    max-width: 80vw;
+  }
+
+  &__text {
+    color: $white;
+    font-style: italic;
+  }
+
+  &__title {
+    font-size: 1.5em;
+    font-style: normal;
+  }
+  
+  &__overlay {
+    background: $black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    opacity: .66;
+    cursor: pointer;
+  }
+}

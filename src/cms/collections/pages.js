@@ -51,15 +51,31 @@ export const pages = {
           name: 'papers',
           widget: 'list',
           allow_add: true,
-          fields: [{
-            label: 'Papers',
-            name: 'papers',
-            widget: 'relation',
-            collection: 'papers',
-            searchFields: ['title'],
-            valueField: 'title',
-            displayFields: ['title']
-          }]
+          fields: [        
+            {
+              name: 'title',
+              label: 'Title',
+              widget: 'string'
+            },
+            {
+              name: 'description',
+              label: 'Description',
+              widget: 'text',
+              required: false
+            },
+            {
+              label: 'PDF Url',
+              name: 'url',
+              widget: 'string',
+              required: false
+            },
+            {
+              label: 'PDF File',
+              name: 'file',
+              widget: 'file',
+              required: false
+            }
+          ]
         },
       ]
     },

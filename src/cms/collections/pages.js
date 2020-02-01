@@ -86,18 +86,33 @@ export const pages = {
         },
         {
           label: 'Work',
-          name: 'work',
+          name: 'gallery',
           widget: 'list',
           allow_add: true,
-          fields: [{
-            label: 'Work',
-            name: 'work',
-            widget: 'relation',
-            collection: 'work',
-            searchFields: ['title'],
-            valueField: 'title',
-            displayFields: ['title']
-          }]
+          fields: [
+            {
+              name: 'title',
+              label: 'Title',
+              widget: 'string'
+            },
+            {
+              name: 'description',
+              label: 'Description',
+              widget: 'text',
+              required: false
+            },
+            {
+              label: 'Image',
+              name: 'image',
+              widget: 'image'
+            },
+            {
+              label: 'Thumbnail',
+              name: 'thumbnail',
+              widget: 'image',
+              required: false
+            }
+          ]
         },
       ]
     },

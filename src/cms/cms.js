@@ -2,9 +2,6 @@ import CMS from 'netlify-cms-app'
 
 // collection field partials
 import { pages } from './collections/pages'
-import { papers } from './collections/papers'
-import { work } from './collections/work'
-import { partnerships } from './collections/partnerships'
 
 CMS.init({
   config: {
@@ -20,10 +17,7 @@ CMS.init({
     media_folder: 'static/images/uploads',
     public_folder: '/images/uploads',
     collections: [
-      pages,
-      papers,
-      work,
-      partnerships,
+      pages
     ]
   }
 })

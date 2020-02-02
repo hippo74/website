@@ -26,9 +26,9 @@ export const pages = {
       ]
     },
     {
-      label: 'Papers',
-      name: 'papers',
-      file: 'src/content/pages/papers.md',
+      label: 'Education',
+      name: 'education',
+      file: 'src/content/pages/education.md',
       fields: [
         {
           label: 'Name',

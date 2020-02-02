@@ -13,7 +13,7 @@ const Header = (props) => (
     </Link>
     <nav className={styles['header__nav']}>
       <ul>
-        {['art', 'papers', 'partnerships'].map((page, index) => {
+        {['art', 'education', 'partnerships'].map((page, index) => {
           return (
             <li className={styles['header__nav-item']}>
               <Link

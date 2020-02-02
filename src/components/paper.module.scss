@@ -1,0 +1,27 @@
+.paper {
+  display: flex;
+  margin-bottom: 2rem;
+  
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__files {
+    width: 10rem;
+    margin-right: 1rem;
+    font-size: .8em;
+  }
+
+  &__text {
+    flex: 1;
+  }
+
+  &__header {
+    font-size: 1.5em;
+    font-style: normal;
+  }
+
+  &__description {
+
+  }
+}

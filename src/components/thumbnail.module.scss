@@ -14,7 +14,7 @@
 }
 
 .lightbox {
-  transition: $transition;
+  transition: opacity $transition;
   position: fixed;
   top: 0;
   right: 0;

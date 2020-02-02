@@ -1,7 +1,7 @@
 ---
-name: papers
-title: Papers
-text: this is the text on the papers page.
+name: education
+title: Education
+text: this is the text on the education page.
 papers:
   - description: >-
       Sed posuere consectetur est at lobortis. Morbi leo risus, porta ac

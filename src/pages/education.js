@@ -1,29 +1,29 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
-import Thumbnail from '../components/thumbnail'
+import Paper from '../components/paper'
 
 export const query = graphql`
-  query Art {
-    markdownRemark(frontmatter: { name: { eq: "art" } } ) {
+  query Education {
+    markdownRemark(frontmatter: { name: { eq: "education" } } ) {
       frontmatter {
         title
         text
-        gallery {
-          description
-          image
+        papers {
           title
-          thumbnail
+          description
+          url
+          file
         }
       }
     }
   }
 `
 
-const Art = props => {
+const Education = props => {
   const {
     text,
-    gallery
+    papers
   } = props.data.markdownRemark.frontmatter
 
   return (
@@ -32,10 +32,10 @@ const Art = props => {
         { text }
       </header>
       <ul>
-        {gallery.map((image, index) => {
+        {papers.map((paper, index) => {
           return (
             <li key={index}>
-              <Thumbnail {...image} />
+              <Paper {...paper} />
             </li>
           )
         })}
@@ -44,4 +44,4 @@ const Art = props => {
   )
 }
 
-export default Art
+export default Education

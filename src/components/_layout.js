@@ -5,6 +5,7 @@ import Header from "./header"
 import "./layout.css"
 
 const Layout = (props) => {
+
   return (
     <>
       <SEO {...props.data.markdownRemark} />

@@ -1,8 +1,5 @@
 import CMS from 'netlify-cms-app'
 
-// collection field partials
-import { pages } from './collections/pages'
-
 CMS.init({
   config: {
     site_url: 'https://brynabobick.netlify.com',

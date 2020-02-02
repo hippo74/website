@@ -4,8 +4,8 @@ import { graphql } from 'gatsby'
 import Thumbnail from '../components/thumbnail'
 
 export const query = graphql`
-  query Work {
-    markdownRemark(frontmatter: { name: { eq: "work" } } ) {
+  query Art {
+    markdownRemark(frontmatter: { name: { eq: "art" } } ) {
       frontmatter {
         title
         text
@@ -20,7 +20,7 @@ export const query = graphql`
   }
 `
 
-const Work = props => {
+const Art = props => {
   const { frontmatter } = props.data.markdownRemark
   const {
     text,
@@ -45,4 +45,4 @@ const Work = props => {
   )
 }
 
-export default Work
+export default Art

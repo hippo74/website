@@ -80,15 +80,15 @@ export const pages = {
       ]
     },
     {
-      label: 'Work',
-      name: 'work',
-      file: 'src/content/pages/work.md',
+      label: 'Art',
+      name: 'art',
+      file: 'src/content/pages/art.md',
       fields: [
         {
           label: 'Name',
           name: 'name',
           widget: 'hidden',
-          default: 'work'
+          default: 'art'
         },
         {
           name: 'title',

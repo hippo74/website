@@ -44,7 +44,8 @@ export const pages = {
         {
           name: 'text',
           label: 'Text',
-          widget: 'text'
+          widget: 'text',
+          required: true
         },
         {
           label: 'Papers',
@@ -98,7 +99,8 @@ export const pages = {
         {
           name: 'text',
           label: 'Text',
-          widget: 'text'
+          widget: 'text',
+          required: true
         },
         {
           label: 'Work',
@@ -151,7 +153,8 @@ export const pages = {
         {
           name: 'text',
           label: 'Text',
-          widget: 'text'
+          widget: 'text',
+          required: true
         },
         {
           label: 'Partnerships',

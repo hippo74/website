@@ -1,6 +1,6 @@
 ---
 name: art
-title: this is the art page
+title: Artwork
 text: this is the text that goes on the art page
 gallery:
   - description: This is the first gallery image

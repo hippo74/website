@@ -7,7 +7,7 @@ import "./layout.css"
 const Layout = (props) => {
   return (
     <>
-      <SEO {...props.data.markdownRemark.frontmatter} />
+      <SEO {...props.data.markdownRemark} />
       <Header siteTitle='bryna bobick' />
       <div
         style={{

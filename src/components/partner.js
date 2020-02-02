@@ -1,39 +1,41 @@
 import React from 'react'
  
-import styles from './paper.module.scss'
+import styles from './partner.module.scss'
 
 const Paper = props => {
 
   const {
     title,
     description,
+    image,
     url,
-    file
+    text
   } = props
 
   return (
-    <article className={styles['paper']}>
-      <div className={styles['paper__files']}>
-        {url && 
-          <a href={url} target='_blank' rel='noopener noreferrer'>
-            View Link
-          </a>
-        }
-        {(url && file) && ' | '}
-        {file && 
-            <a href={file} download>
-            Download PDF
-          </a>
-        }
-      </div>
-      <div className={styles['paper__text']}>
-        <header className={styles['paper__header']}>
+    <article className={styles['partner']}>
+      {image && 
+        <picture className={styles['partner__image']}>
+          <img src={image} alt={title} />  
+        </picture>
+      }
+      <div className={styles['partner__text']}>
+        <header className={styles['partner__header']}>
           {title}
         </header>
         {description && 
-          <p className={styles['paper__description']}>
+          <p className={styles['partner__description']}>
             {description}
           </p>
+        }
+        {url && 
+          <a 
+            className={styles['partner__link']}
+            href={url} 
+            target='_blank' rel='noopener noreferrer'
+          >
+            {text || title}
+          </a>
         }
       </div>
     </article>

@@ -25,7 +25,7 @@ const Thumbnail = props => {
       />
       <CSSTransition
         in={show}
-        timeout={400}
+        timeout={200}
         classNames={{
           enterActive: styles['lightbox--enterActive'],
           enterDone: styles['lightbox--enterDone'],

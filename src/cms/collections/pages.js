@@ -161,15 +161,30 @@ export const pages = {
           name: 'partnerships',
           widget: 'list',
           allow_add: true,
-          fields: [{
-            label: 'Partnerships',
-            name: 'partnerships',
-            widget: 'relation',
-            collection: 'partnerships',
-            searchFields: ['title'],
-            valueField: 'title',
-            displayFields: ['title']
-          }]
+          fields: [
+            {
+              name: 'title',
+              label: 'Title',
+              widget: 'string'
+            },
+            {
+              name: 'description',
+              label: 'Description',
+              widget: 'text',
+              required: false
+            },
+            {
+              label: 'Image',
+              name: 'image',
+              widget: 'image'
+            },
+            {
+              label: 'Link',
+              name: 'url',
+              widget: 'string',
+              required: false
+            },
+          ]
         },
       ]
     }

@@ -1,3 +1,37 @@
 .partner {
-  background: red;
+  display: flex;
+
+  &:nth-child(even) {
+    flex-direction: row-reverse;
+
+    .partner__image {
+      margin: 0 0 0 1rem;
+    }
+  }
+
+  &__image {
+    flex: 1;  
+    margin: 0 1rem 0 0;
+
+    img {
+
+    }
+  }
+
+  &__text {
+    flex: 2;
+  }
+
+  &__header {
+    font-size: 1.5em;
+    font-style: normal;
+  }
+
+  &__description {
+
+  }
+
+  &__link {
+
+  }
 }

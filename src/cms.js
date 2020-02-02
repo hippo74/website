@@ -17,6 +17,9 @@ CMS.init({
       {
         label: 'Pages',
         name: 'pages',
+        editor: {
+          preview: false
+        },
         files: [
           {
             label: 'Home',

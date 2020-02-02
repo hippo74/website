@@ -31,15 +31,9 @@ const Partnerships = (props) => {
       <header>
         { text }
       </header>
-      <ul>
-        {partnerships.map((partner, index) => {
-          return (
-            <li key={index}>
-              <Partner {...partner} />
-            </li>
-          )
-        })}
-      </ul>
+      {partnerships.map((partner, index) => {
+        return <Partner {...partner} key={index} />
+      })}
     </main>
   )
 }

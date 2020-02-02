@@ -31,15 +31,9 @@ const Art = props => {
       <header>
         { text }
       </header>
-      <ul>
-        {gallery.map((image, index) => {
-          return (
-            <li key={index}>
-              <Thumbnail {...image} />
-            </li>
-          )
-        })}
-      </ul>
+      {gallery.map((image, index) => {
+        return <Thumbnail key={index} {...image} />
+      })}
     </main>
   )
 }

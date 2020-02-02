@@ -16,7 +16,7 @@ const Paper = props => {
     <article className={styles['partner']}>
       {image && 
         <picture className={styles['partner__image']}>
-          <img src={image} alt={title} />  
+          <img src={`${image}?nf_resize=smartcrop&w=800&h=800`} alt={title} />  
         </picture>
       }
       <div className={styles['partner__text']}>

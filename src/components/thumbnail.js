@@ -49,6 +49,7 @@ const Thumbnail = props => {
           </figure>
           <div 
             className={styles['lightbox__overlay']}
+            aria-label='close'
             onClick={handleToggleShow}
           />
         </div>

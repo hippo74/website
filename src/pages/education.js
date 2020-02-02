@@ -31,15 +31,9 @@ const Education = props => {
       <header>
         { text }
       </header>
-      <ul>
-        {papers.map((paper, index) => {
-          return (
-            <li key={index}>
-              <Paper {...paper} />
-            </li>
-          )
-        })}
-      </ul>
+      {papers.map((paper, index) => {
+        return <Paper key={index} {...paper} />
+      })}
     </main>
   )
 }

@@ -45,7 +45,7 @@ export const pages = {
           name: 'text',
           label: 'Text',
           widget: 'text',
-          required: true
+          required: false
         },
         {
           label: 'Papers',
@@ -100,7 +100,7 @@ export const pages = {
           name: 'text',
           label: 'Text',
           widget: 'text',
-          required: true
+          required: false
         },
         {
           label: 'Work',
@@ -154,7 +154,7 @@ export const pages = {
           name: 'text',
           label: 'Text',
           widget: 'text',
-          required: true
+          required: false
         },
         {
           label: 'Partnerships',
@@ -176,7 +176,14 @@ export const pages = {
             {
               label: 'Image',
               name: 'image',
-              widget: 'image'
+              widget: 'image',
+              required: false
+            },
+            {
+              label: 'Link Text',
+              name: 'text',
+              widget: 'string',
+              required: false
             },
             {
               label: 'Link',

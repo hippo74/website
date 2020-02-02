@@ -22,6 +22,7 @@ module.exports = {
     },
 
     // content related
+    'gatsby-transformer-remark',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -36,7 +37,6 @@ module.exports = {
         path: `${__dirname}/src/content/`
       }
     },
-    'gatsby-transformer-remark',
 
     // design related
     {
@@ -60,7 +60,7 @@ module.exports = {
       options: {
         manualInit: true,
         enableIdentityWidget: false,
-        modulePath: `${__dirname}/src/cms/cms.js`
+        modulePath: `${__dirname}/src/cms.js`
       }
     }
   ]

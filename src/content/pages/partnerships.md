@@ -13,5 +13,6 @@ partnerships:
     image: /images/uploads/ollie_hansolo.jpg
     title: Partnership Title
     url: '#'
+    text: link text
 ---
 

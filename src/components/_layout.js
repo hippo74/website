@@ -1,11 +1,13 @@
 import React from "react"
 
+import SEO from './seo'
 import Header from "./header"
 import "./layout.css"
 
 const Layout = (props) => {
   return (
     <>
+      <SEO {...props.data.markdownRemark.frontmatter} />
       <Header siteTitle='bryna bobick' />
       <div
         style={{

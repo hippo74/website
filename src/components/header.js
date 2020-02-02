@@ -15,7 +15,10 @@ const Header = (props) => (
       <ul>
         {['art', 'education', 'partnerships'].map((page, index) => {
           return (
-            <li className={styles['header__nav-item']}>
+            <li 
+              key={index}
+              className={styles['header__nav-item']}
+            >
               <Link
                 key={index}
                 to={page}

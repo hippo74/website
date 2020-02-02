@@ -1,8 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
-import Markdown from '../components/markdown'
-
 export const query = graphql`
   query Home {
     markdownRemark(frontmatter: { name: { eq: "home" } } ) {
@@ -14,7 +12,7 @@ export const query = graphql`
 `
 
 const Home = (props) => {
-  return <Markdown post={props.data.markdownRemark} />
+  return ('test')
 }
 
 export default Home

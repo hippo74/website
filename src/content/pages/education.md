@@ -21,8 +21,6 @@ text: >
   encourage civic engagement.  It is a comprehensive reference source for
   emerging perspectives on the incorporation of artistic works to facilitate
   improved civic engagement.
-
-  BIO
 papers:
   - description: >-
       Assessment White Papers for Art Education, Section IV, National Art

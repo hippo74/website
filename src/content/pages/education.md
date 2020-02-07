@@ -25,13 +25,11 @@ text: >
   BIO
 papers:
   - description: >-
-      Sed posuere consectetur est at lobortis. Morbi leo risus, porta ac
-      consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus
-      commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
-      risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      Assessment White Papers for Art Education, Section IV, National Art
+      Education Association, 2019
     file: /images/uploads/colors.pdf
-    title: 'test pdf #1'
-    url: 'https://www.youtube.com/watch?v=ScMzIvxBSi4'
+    title: 'A Snapshot of Portfolio Assessment '
+    url: 'https://www.academia.edu/40450392/A_Snapshot_of_Portfolio_Assessment'
   - description: This one only has a url.
     title: 'Paper #2'
     url: 'https://www.youtube.com/watch?v=ScMzIvxBSi4'

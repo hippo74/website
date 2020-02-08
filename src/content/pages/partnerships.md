@@ -9,12 +9,10 @@ text: >-
   university and community relationships.
 partnerships:
   - description: >-
-      Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus
-      varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur
-      ac, vestibulum at eros. Cras justo odio, dapibus ac facilisis in, egestas
-      eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-      mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
-      odio sem nec elit.
+      The Memphis Public Library: Benjamin L Hooks Central Library.  Partnership
+      for community art education experiences with university art education
+      majors. Art education majors developed and taught hands-on art lessons to
+      upper elementary and middle school students at the public library.
     image: /images/uploads/ollie_hansolo.jpg
     title: Partnership Title
     url: '#'

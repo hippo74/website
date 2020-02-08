@@ -19,5 +19,6 @@ partnerships:
   - image: /images/uploads/gatsby-astronaut.png
     title: second partnership
   - title: The Dixon Gallery and Gardens
+  - title: The Memphis Brooks Museum of Art
 ---
 

@@ -81,5 +81,10 @@ papers:
   - file: >-
       /images/uploads/Promoting-Civic-Engagement-through-University-Curricula.pdf
     title: Promoting Civic Engagement through University Curricula
+  - description: >-
+      Book Chapter:  In M. Buffington & S.W. McKay (Eds.) Practice theory:
+      Seeing the power of art teacher researchers.  
+    file: '/images/uploads/51VW82934YL._SX384_BO1,204,203,200_.jpg'
+    title: Cooperative Art Education
 ---
 

@@ -48,5 +48,9 @@ papers:
       to Children
     title: 'Community Art Academy: A Public/University Library Collaboration'
     url: 'https://www.academia.edu/33785208/Children_and_Libraries.docx'
+  - description: 'The Clearing House: A Journal of Educational Strategies, Issues and Ideas '
+    title: A Survey of Teen Museum Education Participants and their Parents
+    url: >-
+      https://www.academia.edu/26544283/The_Clearing_House_A_Journal_of_Educational_Strategies_Issues_and_Ideas_A_Survey_of_Teen_Museum_Education_Participants_and_their_Parents
 ---
 

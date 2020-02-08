@@ -56,8 +56,11 @@ papers:
     title: 'Practical Partnerships: Strengthening the Museum-School Relationship'
     url: >-
       https://www.academia.edu/17381309/Practical_Partnerships_Strengthening_the_Museum-School_Relationship
-  - description: NAEA Advisory part 1
+  - description: NAEA Advisory Part 1
     title: 'Getting Hired, Part 1: Tips for Preparing an Application Packet'
     url: 'https://www.academia.edu/4375290/10_2J_NAEA_Advisory_part_1_fall_2012'
+  - description: NAEA Advisory Part 2
+    title: 'Getting Hired,  Part 2: Tips for Interviewing'
+    url: 'https://www.academia.edu/4375289/10_2K_Advisory_part_2_fall_2012'
 ---
 

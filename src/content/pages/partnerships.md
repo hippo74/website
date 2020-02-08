@@ -32,7 +32,8 @@ partnerships:
       students developed museum education lessons based on the Augusta Savage
       exhibition.  
     title: 'The Dixon Gallery and Gardens: Museum Education Partnership'
-  - title: The Memory Project
+  - image: /images/uploads/IMG_2098.jpeg
+    title: The Memory Project
     text: 'https://www.memoryproject.org/'
 ---
 

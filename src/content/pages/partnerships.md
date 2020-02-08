@@ -38,8 +38,9 @@ partnerships:
   - description: >-
       The Memory Project brings an intercultural art education experience to art
       classrooms.  The art education students were paired with children in
-      varies countries and create a portrait of the child.  The University of
-      Memphis portrait exchange involved children from Syria and Pakistan.  
+      varies countries and create a portrait of a specific child.  The
+      University of Memphis portrait exchange involved children from Syria and
+      Pakistan.  
     image: /images/uploads/IMG_2098.jpeg
     title: The Memory Project
     text: 'https://www.memoryproject.org/'

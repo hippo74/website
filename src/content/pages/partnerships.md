@@ -2,11 +2,11 @@
 name: partnerships
 title: Partnerships
 text: >-
-  Art Education students have the opportunity to participate in a variety of
-  partnerships.  These partnerships occur at both art museums and other
-  community settings.  The art education students develop and teach a range of
-  visual art activities.  These civic engagement partnerships strengthen
-  university and community relationships.
+  Art Education  graduate and undergraduate students have opportunities to
+  participate in a variety of partnerships.  These partnerships occur at both
+  art museums and other community settings.  The art education students develop
+  and teach a range of visual art activities.  These civic engagement
+  partnerships strengthen university and community relationships.
 partnerships:
   - description: >-
       The Memphis Public Library: Benjamin L Hooks Central Library.  Partnership

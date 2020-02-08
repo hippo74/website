@@ -65,5 +65,8 @@ papers:
   - description: Journal of Art Education Australia
     title: A Study of Cooperative Art Education in Elementary Art Classrooms
     url: 'https://www.academia.edu/4375240/10_2_A_Journal_of_Art_Education_Australia'
+  - description: Journal of Art for Life
+    title: 'Native American Art Lesson Plans in School Arts: A Content Analysis '
+    url: 'https://www.academia.edu/4375239/5_2_B_Journal_of_Art_for_Life'
 ---
 

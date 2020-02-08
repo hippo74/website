@@ -97,6 +97,7 @@ papers:
   - description: >-
       In this article, the authors advocate for art education and ways to
       support educators.
+    file: /images/uploads/ContentServer (1).pdf
     title: 'Advocacy for Art Education: Beyond t-shirts and bumper stickers.  '
 ---
 

@@ -94,5 +94,9 @@ papers:
       Book Chapter:  In K.Hutzel, F.M.C. Bastos & K. Cosier (Eds.) Transforming
       City Schools Through Art: Approaches to Meaningful K-12 Learning. 
     title: 'Community Arts Academy: Service Learning for Urban Art Teachers'
+  - description: >-
+      In this article, the authors advocate for art education and ways to
+      support educators.
+    title: 'Advocacy for Art Education: Beyond t-shirts and bumper stickers.  '
 ---
 

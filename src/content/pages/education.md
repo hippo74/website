@@ -43,5 +43,10 @@ papers:
       curricula
     url: >-
       https://www.academia.edu/39639798/Responding_to_the_challenge_to_care_Suggestions_for_art_education_curricula
+  - description: >-
+      Children and Libraries: The Journal of the Association for Library Service
+      to Children
+    title: 'Community Art Academy: A Public/University Library Collaboration'
+    url: 'https://www.academia.edu/33785208/Children_and_Libraries.docx'
 ---
 

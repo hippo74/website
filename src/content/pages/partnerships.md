@@ -16,8 +16,6 @@ partnerships:
     image: /images/uploads/ollie_hansolo.jpg
     title: Community Art Academy
     url: '#'
-  - image: /images/uploads/gatsby-astronaut.png
-    title: second partnership
   - title: The Dixon Gallery and Gardens
   - title: The Memphis Brooks Museum of Art
 ---

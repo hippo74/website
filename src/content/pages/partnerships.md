@@ -18,5 +18,6 @@ partnerships:
     url: '#'
   - image: /images/uploads/gatsby-astronaut.png
     title: second partnership
+  - title: The Dixon Gallery and Gardens
 ---
 

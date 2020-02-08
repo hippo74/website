@@ -14,7 +14,7 @@ partnerships:
       majors. Art education majors developed and taught hands-on art lessons to
       upper elementary and middle school students at the public library.
     image: /images/uploads/ollie_hansolo.jpg
-    title: Partnership Title
+    title: Community Art Academy
     url: '#'
   - image: /images/uploads/gatsby-astronaut.png
     title: second partnership

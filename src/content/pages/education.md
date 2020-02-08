@@ -78,5 +78,8 @@ papers:
       Community Art.
     url: >-
       https://www.academia.edu/31071046/Handbook_of_Research_on_the_Facilitation_of_Civic_Engagement_through_Community_Art
+  - file: >-
+      /images/uploads/Promoting-Civic-Engagement-through-University-Curricula.pdf
+    title: Promoting Civic Engagement through University Curricula
 ---
 

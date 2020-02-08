@@ -31,6 +31,7 @@ partnerships:
       works of art from the permanent collection.  In addition, undergraduate
       students developed museum education lessons based on the Augusta Savage
       exhibition.  
+    image: /images/uploads/IMG_1635.jpeg
     title: 'The Dixon Gallery and Gardens: Museum Education Partnership'
   - description: >-
       The Memory Project brings an intercultural art education experience to art

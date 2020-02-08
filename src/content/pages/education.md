@@ -25,11 +25,23 @@ papers:
   - description: >-
       Assessment White Papers for Art Education, Section IV, National Art
       Education Association, 2019
-    file: /images/uploads/colors.pdf
+    file: ''
     title: 'A Snapshot of Portfolio Assessment '
     url: 'https://www.academia.edu/40450392/A_Snapshot_of_Portfolio_Assessment'
-  - description: This one only has a url.
-    title: 'Paper #2'
-    url: 'https://www.youtube.com/watch?v=ScMzIvxBSi4'
+  - description: >-
+      In this article, the authors speculate on the role that art education
+      might play in fostering caring relationships and experiences for
+      children.  Inspired by the work of Nel Noddings, the authors offer
+      suggestions for developing a caring approach to art education curricula.
+      The article introduces strategies that are generally congruent with
+      Noddings’ concept of relational ethics and that include the use of (a)
+      instructional units based on selected themes of care, (b) cooperative art
+      activities, and (c) the willingness of teachers to adopt caring personas
+      in their art classrooms.
+    title: >-
+      Responding to the challenge to care: Suggestions for art education
+      curricula
+    url: >-
+      https://www.academia.edu/39639798/Responding_to_the_challenge_to_care_Suggestions_for_art_education_curricula
 ---
 

@@ -12,6 +12,7 @@ partnerships:
   - description: >-
       Art Education majors developed and taught hands-on art activities for the
       Community Days held at The Memphis Brooks Museum of Art.
+    image: /images/uploads/DSC_0787.jpeg
     title: Community Days
   - title: The Memphis Public Library
   - title: The Dixon Gallery and Gardens

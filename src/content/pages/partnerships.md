@@ -13,7 +13,7 @@ partnerships:
       Community Days held at The Memphis Brooks Museum of Art. This partnership
       allows the art educator majors opportunities to have authentic museum
       education experiences.
-    image: ''
+    image: /images/uploads/DSC_0009.jpeg
     title: 'Community Days: The Memphis Brooks Museum of Art'
   - description: >-
       University of Memphis art education majors develop and  lead one-of-a-kind

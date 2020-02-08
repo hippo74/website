@@ -1,7 +1,12 @@
 ---
 name: partnerships
 title: Partnerships
-text: text
+text: >-
+  Art Education students have the opportunity to participate in a variety of
+  partnerships.  These partnerships occur at both art museums and other
+  community settings.  The art education students develop and teach a range of
+  visual art activities.  These civic engagement partnerships strengthen
+  university and community relationships.
 partnerships:
   - description: >-
       Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus

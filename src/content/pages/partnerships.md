@@ -11,7 +11,9 @@ partnerships:
   - title: The Memphis Brooks Museum of Art
   - description: >-
       Art Education majors developed and taught hands-on art activities for the
-      Community Days held at The Memphis Brooks Museum of Art.
+      Community Days held at The Memphis Brooks Museum of Art. This partnership
+      allows the art educator majors opportunities to have authentic museum
+      education experiences.
     image: /images/uploads/DSC_0787.jpeg
     title: Community Days
   - title: The Memphis Public Library

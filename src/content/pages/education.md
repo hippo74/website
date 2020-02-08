@@ -68,5 +68,15 @@ papers:
   - description: Journal of Art for Life
     title: 'Native American Art Lesson Plans in School Arts: A Content Analysis '
     url: 'https://www.academia.edu/4375239/5_2_B_Journal_of_Art_for_Life'
+  - description: >-
+      This completed text is 671 pages and 27 chapters.  It is a comprehensive
+      reference source for emerging perspectives on the incorporation of
+      artistic works to facilitate civic engagement. I co-edited the text with
+      Dr. Leigh Hersey.
+    title: >-
+      Handbook of Research on the Facilitation of Civic Engagement through
+      Community Art.
+    url: >-
+      https://www.academia.edu/31071046/Handbook_of_Research_on_the_Facilitation_of_Civic_Engagement_through_Community_Art
 ---
 

@@ -154,6 +154,60 @@ CMS.init({
             ]
           },
           {
+            label: 'Student Work',
+            name: 'student-work',
+            file: 'src/content/pages/student-work.md',
+            fields: [
+              {
+                label: 'Name',
+                name: 'name',
+                widget: 'hidden',
+                default: 'student-work'
+              },
+              {
+                name: 'title',
+                label: 'Title',
+                widget: 'string'
+              },
+              {
+                name: 'text',
+                label: 'Text',
+                widget: 'text',
+                required: false
+              },
+              {
+                label: 'Student Work',
+                name: 'gallery',
+                widget: 'list',
+                allow_add: true,
+                fields: [
+                  {
+                    name: 'title',
+                    label: 'Title',
+                    widget: 'string'
+                  },
+                  {
+                    name: 'description',
+                    label: 'Description',
+                    widget: 'text',
+                    required: false
+                  },
+                  {
+                    label: 'Image',
+                    name: 'image',
+                    widget: 'image'
+                  },
+                  {
+                    label: 'Thumbnail',
+                    name: 'thumbnail',
+                    widget: 'image',
+                    required: false
+                  }
+                ]
+              },
+            ]
+          },
+          {
             label: 'Partnerships',
             name: 'partnerships',
             file: 'src/content/pages/partnerships.md',

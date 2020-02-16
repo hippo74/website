@@ -1,37 +1,42 @@
+@import './_functions.module.scss';
+
 .partner {
-  display: flex;
+  padding: 0 var(--padding);
+  margin-bottom: calc(2 * var(--padding));
 
-  &:nth-child(even) {
-    flex-direction: row-reverse;
+  &:last-child {
+    margin-bottom: 0;
+  }
 
-    .partner__image {
-      margin: 0 0 0 1rem;
+  @include breakpoint {
+    display: flex;
+    align-items: center;
+    
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+  
+      .partner__image {
+        margin: 0 0 0 calc(2 * var(--padding));
+      }
     }
   }
 
   &__image {
     flex: 1;  
-    margin: 0 1rem 0 0;
+    margin: 0 calc(2 * var(--padding)) 0 0;
 
     img {
-
+      width: 100%;
     }
   }
 
   &__text {
     flex: 2;
-  }
-
-  &__header {
-    font-size: 1.5em;
-    font-style: normal;
+    margin: var(--padding) 0;
   }
 
   &__description {
-
-  }
-
-  &__link {
-
+    padding-left: 0;
+    padding-right: 0;
   }
 }

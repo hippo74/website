@@ -16,13 +16,13 @@ const Paper = props => {
     <article className={styles['partner']}>
       {image && 
         <picture className={styles['partner__image']}>
-          <img src={`${image}?nf_resize=smartcrop&w=800&h=800`} alt={title} />  
+          <img src={`${image}?nf_resize=smartcrop&w=600&h=600`} alt={title} />  
         </picture>
       }
       <div className={styles['partner__text']}>
-        <header className={styles['partner__header']}>
+        <h2 className={styles['partner__header']}>
           {title}
-        </header>
+        </h2>
         {description && 
           <p className={styles['partner__description']}>
             {description}

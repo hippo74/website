@@ -66,5 +66,13 @@ module.exports = {
 
     // build related plugins
     'gatsby-plugin-netlify-cache',
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /images/
+        }
+      }
+    }
   ]
 }

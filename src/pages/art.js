@@ -30,8 +30,8 @@ const Art = props => {
 
   return (
     <>
-      <h1>{title}</h1>
-      <Intro text={text} />
+      
+      <Intro title={title} text={text} />
       {gallery.map((image, index) => {
         return <Thumbnail key={index} {...image} />
       })}

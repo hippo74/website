@@ -1,4 +1,5 @@
 import React from 'react'
+import Intro from '../components/intro'
 
 import { graphql } from 'gatsby'
 
@@ -14,8 +15,8 @@ export const query = graphql`
 
 const NotFoundPage = () => (
   <>
-    <h1>Uh oh!</h1>
-    <p>You hit a page that doesn't exist.</p>
+    <Intro title='Uh oh!' text="You hit a page that doesn't exist." />
+    <h1></h1>
   </>
 )
 

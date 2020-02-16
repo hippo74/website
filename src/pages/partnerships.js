@@ -30,8 +30,8 @@ const Partnerships = (props) => {
 
   return (
     <>
-      <h1>{title}</h1>
-      <Intro text={text} />
+      
+      <Intro title={title} text={text} />
       {partnerships.map((partner, index) => {
         return <Partner {...partner} key={index} />
       })}

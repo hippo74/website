@@ -1,0 +1,30 @@
+.summary {
+  max-width: var(--readable);
+  margin: var(--padding) auto;
+
+  &__header {
+    font-size: calc(1.5rem + 1vw);
+    font-family: var(--serif);
+    color: var(--gray);
+    margin-bottom: var(--padding);
+
+    &:after {
+      content: '';
+      display: block;
+      margin-bottom: var(--padding);
+      height: .25rem;
+      width: 50%;
+      background: var(--gray);
+    }
+  }
+
+  &__description {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    padding: var(--padding) 0;
+  }
+
+  &__link {
+
+  }
+}

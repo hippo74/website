@@ -2,7 +2,7 @@
 
 .partner {
   padding: 0 var(--padding);
-  margin-bottom: calc(2 * var(--padding));
+  margin-bottom: var(--verticalSpacing);
 
   &:last-child {
     margin-bottom: 0;
@@ -11,19 +11,22 @@
   @include breakpoint {
     display: flex;
     align-items: center;
+
+    .partner__image {
+      flex: 1;  
+      margin: 0 var(--verticalSpacing) 0 0;
+    }
     
     &:nth-child(even) {
       flex-direction: row-reverse;
   
       .partner__image {
-        margin: 0 0 0 calc(2 * var(--padding));
+        margin: 0 0 0 var(--verticalSpacing);
       }
     }
   }
 
   &__image {
-    flex: 1;  
-    margin: 0 calc(2 * var(--padding)) 0 0;
 
     img {
       width: 100%;
@@ -32,11 +35,5 @@
 
   &__text {
     flex: 2;
-    margin: var(--padding) 0;
-  }
-
-  &__description {
-    padding-left: 0;
-    padding-right: 0;
   }
 }

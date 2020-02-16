@@ -30,8 +30,7 @@ const Education = props => {
 
   return (
     <>
-      <h1>{title}</h1>
-      <Intro text={text} />
+      <Intro title={title} text={text} />
       {papers.map((paper, index) => {
         return <Paper key={index} {...paper} />
       })}

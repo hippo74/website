@@ -1,6 +1,13 @@
 .paper {
   display: flex;
-  margin-bottom: 2rem;
+  justify-content: center;
+  align-items: start;
+  padding: 0 var(--padding);
+  margin-bottom: var(--verticalSpacing);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
   
   &:last-child {
     margin-bottom: 0;
@@ -8,20 +15,45 @@
 
   &__files {
     width: 10rem;
-    margin-right: 1rem;
-    font-size: .8em;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-right: var(--verticalSpacing);
+  }
+
+  svg {
+    width: 4em;
+    margin: 0 auto var(--padding) auto;
+    fill: var(--highlight);
+    path {
+      transition: var(--transition);
+    }
+  }
+
+  &__links {
+    text-align: center;
+
+    &:hover {
+      & + svg {
+        path:nth-of-type(2) {
+          fill: var(--gray);
+        }
+      }
+    }
+
+    a {
+      color: var(--highlight);
+      background-image: linear-gradient(to bottom, transparent 50%, var(--gray) 50%);
+    }
   }
 
   &__text {
     flex: 1;
-  }
+    margin: 0 !important;
 
-  &__header {
-    font-size: 1.5em;
-    font-style: normal;
-  }
-
-  &__description {
-
+    h2 {
+      margin-top: 0;
+    }
   }
 }

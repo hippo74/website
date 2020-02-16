@@ -1,4 +1,6 @@
 import React from 'react'
+
+import SummaryText from './summary-text'
  
 import styles from './partner.module.scss'
 
@@ -19,25 +21,7 @@ const Paper = props => {
           <img src={`${image}?nf_resize=smartcrop&w=600&h=600`} alt={title} />  
         </picture>
       }
-      <div className={styles['partner__text']}>
-        <h2 className={styles['partner__header']}>
-          {title}
-        </h2>
-        {description && 
-          <p className={styles['partner__description']}>
-            {description}
-          </p>
-        }
-        {url && 
-          <a 
-            className={styles['partner__link']}
-            href={url} 
-            target='_blank' rel='noopener noreferrer'
-          >
-            {text || title}
-          </a>
-        }
-      </div>
+      <SummaryText className={styles['partner__text']} {...props} />
     </article>
   )
 }

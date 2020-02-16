@@ -23,5 +23,7 @@ gallery:
     title: Backyard Flowers
   - image: /images/uploads/Tulips copy.jpg
     title: Tulips 2
+  - image: /images/uploads/Untitled-1.jpg
+    title: Hydrangea
 ---
 

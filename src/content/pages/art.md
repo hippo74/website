@@ -21,5 +21,7 @@ gallery:
     title: Mini Button Dress
   - image: '/images/uploads/B.Bobick Backyard Flowers, mixed media copy.jpg'
     title: Backyard Flowers
+  - image: /images/uploads/Tulips copy.jpg
+    title: Tulips 2
 ---
 

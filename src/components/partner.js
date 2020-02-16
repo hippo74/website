@@ -21,6 +21,7 @@ const Paper = props => {
           <img src={`${image}?nf_resize=smartcrop&w=600&h=600`} alt={title} />  
         </picture>
       }
+      {/* TODO load images at size better here */}
       <SummaryText className={styles['partner__text']} {...props} />
     </article>
   )

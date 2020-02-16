@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
+import Intro from '../components/intro'
 import Thumbnail from '../components/thumbnail'
 
 export const query = graphql`
@@ -22,15 +23,15 @@ export const query = graphql`
 
 const Art = props => {
   const {
+    title,
     text,
     gallery
   } = props.data.markdownRemark.frontmatter
 
   return (
     <>
-      <header>
-        { text }
-      </header>
+      <h1>{title}</h1>
+      <Intro text={text} />
       {gallery.map((image, index) => {
         return <Thumbnail key={index} {...image} />
       })}

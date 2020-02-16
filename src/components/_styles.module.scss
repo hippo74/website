@@ -27,6 +27,7 @@ html,
 body {
   margin: 0;
   background-color: var(--light);
+  color: var(--dark);
   font-size: 12px;
 
   a {
@@ -43,6 +44,23 @@ body {
       cursor: pointer;
       outline: none;
       background-position: 100% 45%;
+    }
+  }
+
+  h1 {
+    text-align: center;
+    font-size: calc(2rem + 2vw);
+    font-family: var(--serif);
+    color: var(--highlight);
+    margin: calc(4 * var(--padding)) var(--padding) var(--padding) var(--padding);
+
+    &:after {
+      content: '';
+      display: block;
+      margin: var(--padding) auto 0 auto;
+      height: .5rem;
+      width: 1em;
+      background: var(--gray);
     }
   }
 }

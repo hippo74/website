@@ -1,6 +1,8 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
+import Intro from '../components/intro'
+
 export const query = graphql`
   query Home {
     markdownRemark(frontmatter: { name: { eq: "home" } } ) {

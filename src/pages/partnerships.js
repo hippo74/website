@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
+import Intro from '../components/intro'
 import Partner from '../components/partner'
 
 export const query = graphql`
@@ -22,15 +23,15 @@ export const query = graphql`
 
 const Partnerships = (props) => {
   const {
+    title,
     text,
     partnerships
   } = props.data.markdownRemark.frontmatter
 
   return (
     <>
-      <header>
-        { text }
-      </header>
+      <h1>{title}</h1>
+      <Intro text={text} />
       {partnerships.map((partner, index) => {
         return <Partner {...partner} key={index} />
       })}

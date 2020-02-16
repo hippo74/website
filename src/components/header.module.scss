@@ -2,18 +2,23 @@
   background: var(--dark);
   color: var(--light);
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   font-size: calc(1rem + .25vw);
-  padding: 1em 2em;
+  padding: 0 var(--padding);
 
   &__logo {
     font-size: 1.75em;
     font-family: var(--serif);
+    margin: var(--padding) 0;
   }
 
   &__nav {
     font-size: 1.345em;
+    max-width: 100%;
+    overflow: auto;
+    margin: var(--padding) 0;
 
     ul {
       list-style: none;
@@ -23,11 +28,8 @@
     }
 
     &-item {
-      margin-right: 1rem;
-
-      &:last-child {
-        margin-right: 0;
-      }
+      margin: 0 .5rem;
+      text-transform: capitalize;
     }
   }
 }

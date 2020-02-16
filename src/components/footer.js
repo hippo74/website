@@ -2,13 +2,11 @@ import React from "react"
 
 import styles from "./footer.module.scss"
 
-const Footer = (props) => {
+const Footer = () => {
 
   return (
-    <footer>
-      © {new Date().getFullYear()}, Built with
-      {` `}
-      <a href="https://www.gatsbyjs.org">Gatsby</a>
+    <footer className={styles.footer}>
+      © {new Date().getFullYear()}
     </footer>
   )
 }

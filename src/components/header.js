@@ -9,7 +9,7 @@ const Header = (props) => (
       to='/'
       className={styles['header__logo']}
     >
-      {props.siteTitle}
+      Bryna Bobick
     </Link>
     <nav className={styles['header__nav']}>
       <ul>

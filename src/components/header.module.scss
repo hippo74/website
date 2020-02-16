@@ -1,29 +1,19 @@
-@import '../styles/variables.module.scss';
-
 .header {
-  background: rebeccapurple;
+  background: var(--dark);
+  color: var(--light);
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  color: $white;
-  font-size: 1rem;
+  font-size: calc(1rem + .25vw);
   padding: 1em 2em;
-  margin-bottom: 1.5em;
-
-  a {
-    color: currentColor;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
 
   &__logo {
-    font-size: 1.5em;
+    font-size: 1.75em;
+    font-family: var(--serif);
   }
 
   &__nav {
-    font-size: 1em;
+    font-size: 1.345em;
 
     ul {
       list-style: none;

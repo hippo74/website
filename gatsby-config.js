@@ -62,6 +62,9 @@ module.exports = {
         enableIdentityWidget: false,
         modulePath: `${__dirname}/src/cms.js`
       }
-    }
+    },
+
+    // build related plugins
+    'gatsby-plugin-netlify-cache',
   ]
 }

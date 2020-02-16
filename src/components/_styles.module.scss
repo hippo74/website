@@ -1,0 +1,48 @@
+:root {
+  --color-purple-mardi-gras: #330036;
+  --color-purple-cosmic: #693668;
+  --color-blue-oxford: #2F394D;
+  --color-tan-chamois: #EEE1B3;
+
+  --serif: 'Cutive', serif;
+  --sansSerif: 'Montserrat', sans-serif;
+
+  --dark: var(--color-purple-mardi-gras);
+  --light: var(--color-tan-chamois);
+  --gray: var(--color-blue-oxford);
+  --highlight: var(--color-purple-cosmic);
+
+  --transition: .2s;
+  --padding: 1.25rem;
+
+  --readable: 60rem;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--sansSerif);
+}
+
+html,
+body {
+  margin: 0;
+  background-color: var(--light);
+  font-size: 12px;
+
+  a {
+    color: currentColor;
+    text-decoration: none;
+    transition: var(--transition);
+    background-image: linear-gradient(to bottom, transparent 50%, var(--highlight) 50%);
+    background-size: 100% 200% ;
+    background-position: 100% 0%;
+    padding: 0 .125em;
+  
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      outline: none;
+      background-position: 100% 45%;
+    }
+  }
+}

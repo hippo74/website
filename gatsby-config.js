@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
-    description: 'Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.',
-    author: '@gatsbyjs',
+    title: 'BryanBobick.com',
+    description: 'Dr. Bryna Bobick is an Associate Professor of Art Education at The University of Memphis.',
   },
   plugins: [
 
@@ -12,11 +11,11 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'brynabobic.com',
+        short_name: 'brynabobic.com',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#330036',
+        theme_color: '#330036',
         display: 'minimal-ui',
         icon: 'static/images/gatsby-icon.png', // This path is relative to the root of the site.
       },

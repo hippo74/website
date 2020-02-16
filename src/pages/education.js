@@ -27,14 +27,14 @@ const Education = props => {
   } = props.data.markdownRemark.frontmatter
 
   return (
-    <main>
+    <>
       <header>
         { text }
       </header>
       {papers.map((paper, index) => {
         return <Paper key={index} {...paper} />
       })}
-    </main>
+    </>
   )
 }
 

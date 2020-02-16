@@ -27,14 +27,14 @@ const Art = props => {
   } = props.data.markdownRemark.frontmatter
 
   return (
-    <main>
+    <>
       <header>
         { text }
       </header>
       {gallery.map((image, index) => {
         return <Thumbnail key={index} {...image} />
       })}
-    </main>
+    </>
   )
 }
 

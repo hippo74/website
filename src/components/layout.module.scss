@@ -1,0 +1,26 @@
+:root {
+  --color-purple-mardi-gras: #330036;
+  --color-purple-cosmic: #693668;
+  --color-blue-oxford: #2F394D;
+  --color-tan-chamois: #EEE1B3;
+
+  --serif: 'Cutive', serif;
+  --sansSerif: 'Montserrat', sans-serif;
+
+  --dark: var(--color-purple-mardi-gras);
+  --light: var(--color-tan-chamois);
+  --gray: var(--color-blue-oxford);
+  --highlight: var(--color-purple-cosmic);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--sansSerif);
+}
+
+html,
+body {
+  margin: 0;
+  background-color: var(--light);
+  min-height: 100vh;
+}

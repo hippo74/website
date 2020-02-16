@@ -27,14 +27,14 @@ const Partnerships = (props) => {
   } = props.data.markdownRemark.frontmatter
 
   return (
-    <main>
+    <>
       <header>
         { text }
       </header>
       {partnerships.map((partner, index) => {
         return <Partner {...partner} key={index} />
       })}
-    </main>
+    </>
   )
 }
 

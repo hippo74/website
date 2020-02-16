@@ -13,7 +13,7 @@ export const query = graphql`
 
 const Home = (props) => {
   return (
-    <main>
+    <>
       <form 
         name="contact"
         method="post"
@@ -36,7 +36,7 @@ const Home = (props) => {
           Send
         </button>
       </form>
-    </main>
+    </>
   )
 }
 

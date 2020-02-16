@@ -16,6 +16,7 @@ partnerships:
       education experiences. 
     image: /images/uploads/DSC_0009.jpeg
     title: 'Community Days: The Memphis Brooks Museum of Art'
+    url: ''
   - description: >-
       University of Memphis art education majors develop and  lead one-of-a-kind
       art projects to public, private and homeschool students at the Benjamin L.

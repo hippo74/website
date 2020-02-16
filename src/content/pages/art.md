@@ -11,5 +11,7 @@ gallery:
     title: Tuscany Grape Leaves
   - image: '/images/uploads/Tulips, B.Bobick.jpg'
     title: Tulips
+  - image: '/images/uploads/B.Bobick, book art example copy.jpg'
+    title: Book Art
 ---
 

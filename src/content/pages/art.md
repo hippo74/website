@@ -13,5 +13,7 @@ gallery:
     title: Tulips
   - image: '/images/uploads/B.Bobick, book art example copy.jpg'
     title: Book Art
+  - image: /images/uploads/Bobick_Bryna-1.jpg
+    title: 'Book Art Example: Measure Twice and Cut Once'
 ---
 

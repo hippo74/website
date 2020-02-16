@@ -9,5 +9,7 @@ gallery:
     title: Stained Glass Dresses
   - image: /images/uploads/B.Bobick Tuscany Grape Leaves (1).jpg
     title: Tuscany Grape Leaves
+  - image: '/images/uploads/Tulips, B.Bobick.jpg'
+    title: Tulips
 ---
 

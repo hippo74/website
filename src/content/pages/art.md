@@ -17,5 +17,7 @@ gallery:
     title: Broken Fortunes
   - image: '/images/uploads/B.Bobick, book art example copy.jpg'
     title: Rose Book
+  - image: /images/uploads/Mini Button Dress.jpg
+    title: Mini Button Dress
 ---
 

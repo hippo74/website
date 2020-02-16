@@ -19,5 +19,7 @@ gallery:
     title: Rose Book
   - image: /images/uploads/Mini Button Dress.jpg
     title: Mini Button Dress
+  - image: '/images/uploads/B.Bobick Backyard Flowers, mixed media copy.jpg'
+    title: Backyard Flowers
 ---
 

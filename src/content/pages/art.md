@@ -11,9 +11,11 @@ gallery:
     title: Tuscany Grape Leaves
   - image: '/images/uploads/Tulips, B.Bobick.jpg'
     title: Tulips
-  - image: '/images/uploads/B.Bobick, book art example copy.jpg'
-    title: Book Art
   - image: /images/uploads/Bobick_Bryna-1.jpg
     title: 'Book Art Example: Measure Twice and Cut Once'
+  - image: /images/uploads/Broken Fortunes.jpg
+    title: Broken Fortunes
+  - image: '/images/uploads/B.Bobick, book art example copy.jpg'
+    title: Rose Book
 ---
 

@@ -9,5 +9,7 @@ gallery:
       members
   - image: /images/uploads/DSC_0915.jpeg
     title: 'Printmaking on Wood: undergraduate'
+  - image: /images/uploads/DSC_0910.jpg
+    title: 'Undergraduate art education residency candidate: '
 ---
 

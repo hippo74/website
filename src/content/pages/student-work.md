@@ -15,5 +15,7 @@ gallery:
     title: 'Book Arts: graduate student'
   - image: /images/uploads/IMG_1569.jpeg
     title: 'Tolerance, Mixed Media: graduate student'
+  - image: /images/uploads/DSC_0155.jpeg
+    title: 'Mola: undergraduate'
 ---
 

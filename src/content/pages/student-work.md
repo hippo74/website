@@ -11,5 +11,7 @@ gallery:
     title: 'Printmaking on Wood: undergraduate'
   - image: /images/uploads/DSC_0910.jpg
     title: Undergraduate art education residency candidate
+  - image: /images/uploads/DSC_0808.jpeg
+    title: 'Book Arts: graduate student'
 ---
 

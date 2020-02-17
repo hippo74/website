@@ -17,5 +17,7 @@ gallery:
     title: 'Tolerance, Mixed Media: graduate student'
   - image: /images/uploads/DSC_0155.jpeg
     title: 'Mola: undergraduate'
+  - image: /images/uploads/DSCN2885.JPG
+    title: 'Crayon Resist: undergraduate'
 ---
 

@@ -3,8 +3,11 @@ name: student-work
 title: Student work
 text: this is the text that goes on the student art page
 gallery:
-  - description: This is the first gallery image
-    image: /images/uploads/B.Bobick Stained Glass Dress 9" x 11" mixed media.jpg
-    thumbnail: /images/uploads/B.Bobick Stained Glass Dress 9" x 11" mixed media.jpg
-    title: Stained Glass Dresses
+  - image: '/images/uploads/Community Art Academy, weaving, Davis Center copy.jpg'
+    title: >-
+      Collaborative Student Weaving: graduate, undergraduate and community
+      members
+  - image: /images/uploads/DSC_0915.jpeg
+    title: 'Printmaking on Wood: undergraduate'
 ---
+

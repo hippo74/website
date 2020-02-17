@@ -8,7 +8,7 @@ gallery:
       Collaborative Student Weaving: graduate, undergraduate and community
       members
   - image: /images/uploads/DSC_0915.jpeg
-    title: 'Printmaking on Wood: undergraduate'
+    title: 'Printmaking on Wood: undergraduate student'
   - image: /images/uploads/DSC_0910.jpg
     title: Undergraduate art education residency candidate
   - image: /images/uploads/DSC_0808.jpeg

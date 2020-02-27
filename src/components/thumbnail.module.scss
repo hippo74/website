@@ -1,7 +1,7 @@
 .thumbnail {
   display: block;
-  height: 300px;
-  width: 300px;
+  // height: 300px;
+  // width: 300px;
   cursor: pointer;
 
   &__image {
@@ -29,6 +29,7 @@
   }
 
   &__content {
+    margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -37,7 +38,7 @@
   }
 
   &__image {
-    max-height: 50vh;
+    max-height: 75vh;
     max-width: 80vw;
     cursor: initial;
   }
@@ -45,6 +46,7 @@
   &__text {
     color: var(--light);
     font-style: italic;
+    text-align: center;
   }
 
   &__title {
@@ -53,14 +55,19 @@
   }
   
   &__overlay {
-    background: var(--dark);
+    background: var(--gray);
     position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     z-index: 5;
-    opacity: .66;
     cursor: pointer;
+    opacity: .75;
+
+    @supports (mix-blend-mode: multiply) {
+      opacity: .9;
+      mix-blend-mode: multiply;
+    }
   }
 }

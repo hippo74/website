@@ -13,7 +13,8 @@ const Header = (props) => (
     </Link>
     <nav className={styles['header__nav']}>
       <ul>
-        {['art', 'education', 'partnerships'].map((page, index) => {
+        {[
+          'art','education', 'student-work', 'partnerships'].map((page, index) => {
           return (
             <li 
               key={index}
@@ -23,7 +24,7 @@ const Header = (props) => (
                 key={index}
                 to={page}
               >
-                {page}
+                {page.replace('-', '\xa0')}
               </Link>
             </li>
           )

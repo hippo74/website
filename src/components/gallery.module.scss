@@ -1,0 +1,19 @@
+@import './_functions.module.scss';
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  padding: 2rem 0 0 2rem;
+
+  & > * {
+    margin: 0 2rem 2rem 0;
+    width: calc(50% - 2rem);
+    height: auto;
+
+    @include breakpoint {
+      width: 300px;
+    }
+  }
+}

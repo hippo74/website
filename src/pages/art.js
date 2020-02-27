@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import Intro from '../components/intro'
-import Thumbnail from '../components/thumbnail'
+import Gallery from '../components/gallery'
 
 export const query = graphql`
   query Art {
@@ -30,11 +30,8 @@ const Art = props => {
 
   return (
     <>
-      
       <Intro title={title} text={text} />
-      {gallery.map((image, index) => {
-        return <Thumbnail key={index} {...image} />
-      })}
+      <Gallery gallery={gallery} />
     </>
   )
 }

@@ -8,7 +8,7 @@ const Intro = (props) => {
     text
   } = props
 
-  const paragraphs = text.split('\n').filter(p => p !== '')
+  const paragraphs = text ? text.split('\n').filter(p => p !== '') : []
 
   return (
     <section className={styles.text}>

@@ -1,0 +1,85 @@
+.form {
+  padding: 1rem;
+  font-size: 1.25rem;
+
+  div {
+    position: relative;
+    padding-top: 1.25em;
+  }
+
+  label {
+    font-size: 1em;
+    color: var(--gray);
+    position: absolute;
+    top: 1.75em;
+    left: .5em;
+    transition: var(--transition);
+  }
+
+  @mixin labelActive {
+    top: 0;
+    left: 0;
+    transform: scale(.8);
+  }
+
+  input,
+  textarea{
+    font-size: 1em;
+    color: var(--dark);
+    display: block;
+    width: 100%;
+    border: 0;
+    padding: .5em;
+    margin-bottom: 1rem;
+    transition: var(--transition);
+
+    &:required + label:after {
+      content: '*';
+      margin-left: .25em;
+      color: var(--dark);
+    }
+
+    &:invalid {
+      box-shadow: none;
+    }
+
+    &::placeholder {
+      opacity: 0;
+      transition: var(--transition);
+    }
+
+    &:focus {
+      &::placeholder {
+        opacity: 1;
+      }
+
+      & + label {
+        @include labelActive;
+      }
+    }
+  }
+
+  input:not([value=""]),
+  textarea:not(:empty) {
+    & + label {
+      @include labelActive;
+    }
+  }
+
+  button {
+    display: block;
+    width: 100%;
+    transition: var(--transition);
+    color: var(--light);
+    background: var(--highlight);
+    border: none;
+    margin-top: 2rem;
+    font-size: 1.25em;
+    text-align: center;
+    padding: .33em;
+
+    &:hover {
+      background-color: var(--dark)
+    }
+  }
+}

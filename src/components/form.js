@@ -7,7 +7,8 @@ const Form = () => {
   const [ formValues, setFormValues ] = useState({})
 
   const handleFormChange = event => {
-    setFormValues({...formValues, [event.target.name]: event.target.value})
+    const { name, value } = event.target
+    setFormValues({...formValues, [name]: value})
   }
 
   return (

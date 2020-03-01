@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { CSSTransition } from 'react-transition-group'
  
 import styles from './thumbnail.module.scss'
@@ -14,6 +14,21 @@ const Thumbnail = props => {
 
   const [show, setShow] = useState(false)
   const handleToggleShow = () => setShow(!show)
+
+  const handleKeydown = (e) => {
+    e.preventDefault();
+    if (e.which === 27) { //escape key
+      setShow(false)
+    }
+  }
+
+  useEffect(() => {
+    document.addEventListener('keydown', handleKeydown);
+
+    return () => {
+      document.removeEventListener('keydown', handleKeydown);
+    };
+  });
 
   return (
     <article className={styles['thumbnail']}>

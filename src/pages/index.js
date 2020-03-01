@@ -1,9 +1,11 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
+import cx from 'classnames'
 
 import Intro from '../components/intro'
 import Form from '../components/form'
 import SummaryText from '../components/summary-text'
+import Thumbnail from '../components/thumbnail'
 
 export const query = graphql`
   query Home {
@@ -26,6 +28,28 @@ export const query = graphql`
         }
       }
     }
+
+    art: markdownRemark(frontmatter: { name: { eq: "art" } } ) {
+      frontmatter {
+        gallery {
+          description
+          image
+          title
+          thumbnail
+        }
+      }
+    }
+
+    studentWork: markdownRemark(frontmatter: { name: { eq: "student-work" } } ) {
+      frontmatter {
+        gallery {
+          description
+          image
+          title
+          thumbnail
+        }
+      }
+    }
   }
 `
 
@@ -43,6 +67,16 @@ const Home = (props) => {
         frontmatter: {
           papers
         }
+      },
+      art: {
+        frontmatter: {
+          gallery: personalGallery
+        }
+      },
+      studentWork: {
+        frontmatter: {
+          gallery: studentGallery
+        }
       }
     },
     styles
@@ -56,6 +90,7 @@ const Home = (props) => {
         text={text}
         image={image}
       />
+
       <section className={styles['papers']}>
         <h2>Recent Papers</h2>
         {papers.slice(0, 3).map((paper, index) => {
@@ -63,7 +98,37 @@ const Home = (props) => {
         })}
         <Link to='/education'>More Papers</Link>
       </section>
-      <Form className={styles['form']} />
+
+      <section 
+        className={cx(
+          styles['art'],
+          styles['art--personal']
+        )}
+      >
+        <h2>Personal Work</h2>
+        {personalGallery.slice(0, 4).map((image, index) => {
+          return <Thumbnail key={index} {...image} />
+        })}
+        <Link to='/art'>See More</Link>
+      </section>
+
+      <section 
+        className={cx(
+          styles['art'],
+          styles['art--students']
+        )}
+      >
+        <h2>Personal Work</h2>
+        {studentGallery.slice(0, 4).map((image, index) => {
+          return <Thumbnail key={index} {...image} />
+        })}
+        <Link to='/art'>See More</Link>
+      </section>
+
+      <section className={styles['form']}>
+        <h2>Contact Me</h2>
+        <Form />
+      </section>
     </>
   )
 }

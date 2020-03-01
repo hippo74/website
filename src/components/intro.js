@@ -27,7 +27,10 @@ const Intro = (props) => {
         />
       ))}
       {image && 
-        <img src={image} alt={title} />
+        <img 
+        src={`${image}?nf_resize=fit&w=800&h=800`}
+          alt={title}
+        />
       }
     </section>
   )

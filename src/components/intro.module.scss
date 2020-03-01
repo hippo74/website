@@ -1,5 +1,7 @@
+@import './_functions.module.scss';
+
 .text {
-  text-align: justify;
+  // text-align: justify;
   font-size: 1.5rem;
   line-height: 1.5;
   max-width: var(--readable);
@@ -27,5 +29,48 @@
   }
 
   &--with-image {
+    text-align: left;
+
+    .header {
+      text-align: left;
+      margin-left: 0;
+      
+      &:after {
+        margin-left: 0;
+      }
+    }
+
+    img {
+      display: none;
+    }
+
+    @include breakpoint {
+      overflow: hidden;
+      max-width: 80%;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: auto auto;
+      grid-template-areas: 
+        'image header'
+        'image text';
+      grid-column-gap: calc(2 * var(--padding));
+      margin-top: calc(2 * var(--padding));
+
+      .header {
+        grid-area: header;
+      }
+
+      p {
+        grid-area: text;
+      }
+
+      img {
+        grid-area: image;
+        width: 100%;
+        display: block;
+        justify-self: end;
+        align-self: center;
+      }
+    }
   }
 }

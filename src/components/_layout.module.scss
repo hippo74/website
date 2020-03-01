@@ -27,10 +27,10 @@ main.home {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-      'intro           intro'
-      'personal-art    papers'
-      'student-art     papers'
-      'contact         papers';
+      'intro  intro'
+      'papers personal-art'
+      'papers student-art'
+      'papers contact';
     grid-gap: calc(2 * var(--padding));
 
     .intro {
@@ -70,7 +70,7 @@ main.home {
           height: auto;
       
           @include breakpoint {
-            width: calc(33% - 2rem);
+            width: calc(25% - 2rem);
           }
         }
       }

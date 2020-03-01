@@ -44,8 +44,8 @@ CMS.init({
                 required: false
               },
               {
-                label: 'Photo',
-                name: 'photo',
+                label: 'Image',
+                name: 'image',
                 widget: 'image',
               }
             ]

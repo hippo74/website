@@ -10,6 +10,8 @@ export const query = graphql`
     markdownRemark(frontmatter: { name: { eq: "home" } } ) {
       frontmatter {
         title
+        text
+        image
       }
     }
 
@@ -31,7 +33,8 @@ const Home = (props) => {
     markdownRemark: {
       frontmatter: {
         title,
-        text
+        text,
+        image
       }
     },
     education: {
@@ -41,16 +44,13 @@ const Home = (props) => {
     }
   } = props.data
 
-  console.log(papers)
-
   return (
     <>
-      <Intro title={title} text={text} />
+      <Intro title={title} text={text} image={image} />
       <section>
         <h2>Recent Papers</h2>
         {papers.slice(0, 3).map((paper, index) => {
-          return <SummaryText key={index} hLevel='3' {...paper} />
-          // <Paper key={index} {...paper} />
+          return <SummaryText key={index} hLevel='3' {...paper} text={'Read More'} />
         })}
         <Link to='/education'>Read More</Link>
       </section>

@@ -1,22 +1,3 @@
-.header {
-  text-align: center;
-  font-size: calc(2rem + 2vw);
-  font-family: var(--serif);
-  text-transform: uppercase;
-  letter-spacing: .25em;
-  color: var(--highlight);
-  margin: calc(4 * var(--padding)) var(--padding) var(--padding) var(--padding);
-
-  &:after {
-    content: '';
-    display: block;
-    margin: var(--padding) auto 0 auto;
-    height: .5rem;
-    width: 1em;
-    background: var(--gray);
-  }
-}
-
 .text {
   text-align: justify;
   font-size: 1.5rem;
@@ -25,4 +6,26 @@
   margin: 0 auto;
   margin-bottom: calc(3 * var(--padding));
   padding: var(--padding);
+
+  .header {
+    text-align: center;
+    font-size: calc(2rem + 2vw);
+    font-family: var(--serif);
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    color: var(--highlight);
+    margin: calc(4 * var(--padding)) var(--padding) var(--padding) var(--padding);
+  
+    &:after {
+      content: '';
+      display: block;
+      margin: var(--padding) auto 0 auto;
+      height: .5rem;
+      width: 1em;
+      background: var(--gray);
+    }
+  }
+
+  &--with-image {
+  }
 }

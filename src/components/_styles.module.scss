@@ -1,6 +1,7 @@
 :root {
   --color-purple-mardi-gras: #330036;
   --color-purple-cosmic: #693668;
+  --color-purple-lilac: #c895c7;
   --color-blue-oxford: #2F394D;
   --color-tan-chamois: #EEE1B3;
 
@@ -10,6 +11,7 @@
   --light: var(--color-tan-chamois);
   --gray: var(--color-blue-oxford);
   --highlight: var(--color-purple-cosmic);
+  --lightHighlight: var(--color-purple-lilac);
 
   --transition: .2s;
   --padding: 1.25rem;
@@ -32,7 +34,7 @@ body {
   &:after {
     content: '';
     background-color: var(--light);
-    opacity: .20;
+    opacity: .25;
     position: fixed;
     z-index: -1;
     top: 0;

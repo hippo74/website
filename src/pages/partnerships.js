@@ -8,6 +8,7 @@ export const query = graphql`
   query Papers {
     markdownRemark(frontmatter: { name: { eq: "partnerships" } } ) {
       frontmatter {
+        name
         title
         text
         partnerships {

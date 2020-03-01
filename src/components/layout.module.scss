@@ -1,3 +1,5 @@
+@import './_functions.module.scss';
+
 .site {
   min-height: 100vh;
   display: flex;
@@ -17,5 +19,28 @@
     flex-direction: column;
     justify-content: center;
     margin-bottom: calc(4 * var(--padding));
+  }
+}
+
+main.home {
+  @include breakpoint {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    // grid-template-rows: auto, auto;
+    grid-template-areas: 
+      'intro intro'
+      'papers contact';
+
+    .intro {
+      grid-area: intro;
+    }
+
+    .papers {
+      grid-area: papers;
+    }
+
+    .form {
+      grid-area: contact;
+    }
   }
 }

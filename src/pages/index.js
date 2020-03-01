@@ -9,6 +9,7 @@ export const query = graphql`
   query Home {
     markdownRemark(frontmatter: { name: { eq: "home" } } ) {
       frontmatter {
+        name
         title
         text
         image
@@ -30,31 +31,39 @@ export const query = graphql`
 
 const Home = (props) => {
   const {
-    markdownRemark: {
-      frontmatter: {
-        title,
-        text,
-        image
+    data: {
+      markdownRemark: {
+        frontmatter: {
+          title,
+          text,
+          image
+        }
+      },
+      education: {
+        frontmatter: {
+          papers
+        }
       }
     },
-    education: {
-      frontmatter: {
-        papers
-      }
-    }
-  } = props.data
+    styles
+  } = props
 
   return (
     <>
-      <Intro title={title} text={text} image={image} />
-      <section>
+      <Intro
+        className={styles['intro']}
+        title={title}
+        text={text}
+        image={image}
+      />
+      <section className={styles['papers']}>
         <h2>Recent Papers</h2>
         {papers.slice(0, 3).map((paper, index) => {
           return <SummaryText key={index} hLevel='3' {...paper} text={'Read More'} />
         })}
-        <Link to='/education'>Read More</Link>
+        <Link to='/education'>More Papers</Link>
       </section>
-      <Form />
+      <Form className={styles['form']} />
     </>
   )
 }

@@ -5,6 +5,7 @@ import styles from './intro.module.scss'
 
 const Intro = (props) => {
   const {
+    className,
     title,
     text,
     image = null
@@ -14,6 +15,7 @@ const Intro = (props) => {
 
   return (
     <section className={cx(
+      className,
       styles['text'],
       image && styles['text--with-image']
     )}>

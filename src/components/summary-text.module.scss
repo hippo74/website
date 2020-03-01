@@ -1,6 +1,7 @@
 .summary {
   max-width: var(--readable);
-  margin: var(--padding) auto;
+  padding: var(--padding);
+  margin: 0 auto;
 
   &__header {
     font-size: calc(1.5rem + 1vw);

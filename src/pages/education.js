@@ -8,6 +8,7 @@ export const query = graphql`
   query Education {
     markdownRemark(frontmatter: { name: { eq: "education" } } ) {
       frontmatter {
+        name
         title
         text
         papers {

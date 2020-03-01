@@ -8,6 +8,7 @@ export const query = graphql`
   query Art {
     markdownRemark(frontmatter: { name: { eq: "art" } } ) {
       frontmatter {
+        name
         title
         text
         gallery {

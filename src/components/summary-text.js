@@ -15,7 +15,7 @@ const SummaryText = props => {
   } = props
 
   const Header = props => {
-    const Element = `h${hLevel}` || 'h2'
+    const Element = hLevel ? `h${hLevel}` : 'h2'
     return <Element className={props.className}>{props.children}</Element>
   }
 

@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
+import cx from 'classNames'
 
 import styles from './form.module.scss'
 
-const Form = () => {
+const Form = props => {
 
   const [ formValues, setFormValues ] = useState({})
 
@@ -13,7 +14,10 @@ const Form = () => {
 
   return (
     <form 
-      className={styles['form']}
+      className={cx(
+        props.className,
+        styles['form']
+      )}
       name='contact'
       method='post'
       data-netlify='true'

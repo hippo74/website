@@ -5,9 +5,9 @@
   font-size: 1.5rem;
   line-height: 1.5;
   max-width: var(--readable);
+  padding: var(--padding);
   margin: 0 auto;
   margin-bottom: calc(3 * var(--padding));
-  padding: var(--padding);
 
   .header {
     text-align: center;

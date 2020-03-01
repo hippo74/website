@@ -107,7 +107,7 @@ const Home = (props) => {
       >
         <h2>Personal Work</h2>
         <section>
-          {personalGallery.slice(0, 4).map((image, index) => {
+          {personalGallery.slice(0, 6).map((image, index) => {
             return <Thumbnail key={index} {...image} />
           })}
         </section>
@@ -122,7 +122,7 @@ const Home = (props) => {
       >
         <h2>Personal Work</h2>
         <section>
-          {studentGallery.slice(0, 4).map((image, index) => {
+          {studentGallery.slice(0, 6).map((image, index) => {
             return <Thumbnail key={index} {...image} />
           })}
         </section>

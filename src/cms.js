@@ -38,9 +38,15 @@ CMS.init({
                 widget: 'string'
               },
               {
-                name: 'body',
-                label: 'Body',
-                widget: 'text'
+                name: 'text',
+                label: 'Text',
+                widget: 'text',
+                required: false
+              },
+              {
+                label: 'Photo',
+                name: 'photo',
+                widget: 'image',
               }
             ]
           },

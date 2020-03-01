@@ -26,7 +26,7 @@ const Form = () => {
         <input
           type='text'
           name='name'
-          required='true'
+          required={true}
           placeholder='Name'
           id='name'
           value={formValues['name']}
@@ -41,7 +41,7 @@ const Form = () => {
         <input
           type='email'
           name='email'
-          required='true'
+          required={true}
           id='email'
           placeholder='Email'
           value={formValues['email']}
@@ -55,7 +55,7 @@ const Form = () => {
       <div>
         <textarea
           name='message'
-          required='true'
+          required={true}
           id='message'
           placeholder='Message'
           rows='6'

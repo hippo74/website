@@ -6,6 +6,7 @@ import styles from './summary-text.module.scss'
 const SummaryText = props => {
 
   const {
+    hLevel,
     className,
     title,
     description,
@@ -13,14 +14,19 @@ const SummaryText = props => {
     text
   } = props
 
+  const Header = props => {
+    const Element = `h${hLevel}` || 'h2'
+    return <Element className={props.className}>{props.children}</Element>
+  }
+
   return (
     <div className={cx(
       className,
       styles['summary']
     )}>
-        <h2 className={styles['summary__header']}>
+        <Header className={styles['summary__header']}>
           {title}
-        </h2>
+        </Header>
         {description && 
           <p className={styles['summary__description']}>
             {description}

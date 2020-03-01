@@ -11,6 +11,6 @@ text: >-
   University of Memphis College of Communication and Fine Arts Dean’s Award for
   Excellence in Engaged Scholarship.  In addition, she participates in juried
   and invited art exhibitions.  
-image: /images/uploads/Bryna BobickTulip 1. 16%22x18%22jpg  copy.jpg
+image: /images/uploads/Bryna BobickTulip1.jpg
 ---
 

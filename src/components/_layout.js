@@ -5,7 +5,7 @@ import Header from './header'
 import Footer from './footer'
 
 import './_styles.module.scss'
-import styles from './layout.module.scss'
+import styles from './_layout.module.scss'
 require('typeface-cutive-mono')
 require('typeface-montserrat')
 
@@ -20,7 +20,6 @@ const Layout = (props) => {
           className={styles[props.data.markdownRemark.frontmatter.name]}
         >
           {React.cloneElement(props.children, { styles: styles })}
-          {/* {props.children} */}
         </main>
         <Footer />
       </div>

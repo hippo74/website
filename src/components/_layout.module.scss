@@ -56,6 +56,20 @@ main.home {
     .art {
       max-width: var(--readable);
       padding: var(--padding);
+
+      section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: start;
+        padding: 2rem 0 0 2rem;
+      
+        & > * {
+          margin: 0 2rem 2rem 0;
+          width: calc(50% - 2rem);
+          height: auto;
+        }
+      }
     }
   }
 }

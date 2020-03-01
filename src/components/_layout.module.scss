@@ -23,6 +23,41 @@
 }
 
 main.home {
+
+  h2,
+  h2 a {
+    font-family: var(--serif);
+    font-size: calc(1.75rem + 1.5vw);
+    padding: 0 var(--padding);
+    color: var(--highlight);
+  }
+
+  a {
+    padding: 0 !important;
+    background-image: linear-gradient(to bottom, transparent 50%, var(--lightHighlight) 50%);
+  }
+
+  .art {
+
+    section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: start;
+      padding: 0 var(--padding);
+    
+      & > * {
+        margin: 0 2rem 2rem 0;
+        width: calc(50% - 2rem);
+        height: auto;
+    
+        @include breakpoint {
+          width: calc(25% - 2rem);
+        }
+      }
+    }
+  }
+
   @include breakpoint {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -51,29 +86,6 @@ main.home {
 
     .form {
       grid-area: contact;
-    }
-
-    .art {
-      max-width: var(--readable);
-      padding: var(--padding);
-
-      section {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: start;
-        padding: 2rem 0 0 2rem;
-      
-        & > * {
-          margin: 0 2rem 2rem 0;
-          width: calc(50% - 2rem);
-          height: auto;
-      
-          @include breakpoint {
-            width: calc(25% - 2rem);
-          }
-        }
-      }
     }
   }
 }

@@ -92,7 +92,9 @@ const Home = (props) => {
       />
 
       <section className={styles['papers']}>
-        <h2>Recent Papers</h2>
+        <h2>
+          <Link to='/education'>Recent Papers</Link>
+        </h2>
         {papers.slice(0, 3).map((paper, index) => {
           return <SummaryText key={index} hLevel='3' {...paper} text={'Read More'} />
         })}
@@ -105,7 +107,9 @@ const Home = (props) => {
           styles['art--personal']
         )}
       >
-        <h2>Personal Work</h2>
+        <h2>
+          <Link to='/art'>Personal Work</Link>
+        </h2>
         <section>
           {personalGallery.slice(0, 4).map((image, index) => {
             return <Thumbnail key={index} {...image} />
@@ -120,7 +124,9 @@ const Home = (props) => {
           styles['art--students']
         )}
       >
-        <h2>Personal Work</h2>
+        <h2>
+          <Link to='/art'>Personal Work</Link>
+        </h2>
         <section>
           {studentGallery.slice(0, 4).map((image, index) => {
             return <Thumbnail key={index} {...image} />

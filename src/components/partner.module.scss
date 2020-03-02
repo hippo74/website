@@ -19,6 +19,19 @@
     
     &:nth-child(even) {
       flex-direction: row-reverse;
+      position: relative;
+      
+      &:after {
+        content: '';
+        background-color: var(--light);
+        opacity: .5;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
   
       .partner__image {
         margin: 0 0 0 var(--verticalSpacing);

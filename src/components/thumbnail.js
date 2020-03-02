@@ -16,7 +16,6 @@ const Thumbnail = props => {
   const handleToggleShow = () => setShow(!show)
 
   const handleKeydown = (e) => {
-    e.preventDefault();
     if (e.which === 27) { //escape key
       setShow(false)
     }

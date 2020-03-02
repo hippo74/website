@@ -23,6 +23,7 @@
 }
 
 main.home {
+  padding: 0 var(--padding);
 
   .header,
   .header a {
@@ -75,6 +76,7 @@ main.home {
       'papers student-art'
       'papers contact';
     grid-gap: calc(2 * var(--padding));
+    padding: 0 calc(2 * var(--padding));
 
     .intro {
       grid-area: intro;

@@ -1,11 +1,12 @@
 import React from 'react'
-import { graphql, Link } from 'gatsby'
+import { graphql, Link, navigate } from 'gatsby'
 import cx from 'classnames'
 
 import Intro from '../components/intro'
 import Form from '../components/form'
 import SummaryText from '../components/summary-text'
 import Thumbnail from '../components/thumbnail'
+import Button from '../components/button'
 
 export const query = graphql`
   query Home {
@@ -92,13 +93,13 @@ const Home = (props) => {
       />
 
       <section className={styles['papers']}>
-        <h2>
+        <h2 className={styles['header']}>
           <Link to='/education'>Recent Papers</Link>
         </h2>
         {papers.slice(0, 3).map((paper, index) => {
-          return <SummaryText key={index} hLevel='3' {...paper} text={'Read More'} />
+          return <SummaryText key={index} hLevel='3' {...paper} text={'View Link'} />
         })}
-        <Link to='/education'>More Papers</Link>
+        <Button onClick={() => navigate('/education')}>Read More Papers</Button>
       </section>
 
       <section 
@@ -107,7 +108,7 @@ const Home = (props) => {
           styles['art--personal']
         )}
       >
-        <h2>
+        <h2 className={styles['header']}>
           <Link to='/art'>Personal Work</Link>
         </h2>
         <section>
@@ -115,7 +116,7 @@ const Home = (props) => {
             return <Thumbnail key={index} {...image} />
           })}
         </section>
-        <Link to='/art'>See More</Link>
+        <Button onClick={() => navigate('/art')}>See More Artwork</Button>
       </section>
 
       <section 
@@ -124,19 +125,19 @@ const Home = (props) => {
           styles['art--students']
         )}
       >
-        <h2>
-          <Link to='/art'>Personal Work</Link>
+        <h2 className={styles['header']}>
+          <Link to='/student-work'>Student Work</Link>
         </h2>
         <section>
           {studentGallery.slice(0, 4).map((image, index) => {
             return <Thumbnail key={index} {...image} />
           })}
         </section>
-        <Link to='/art'>See More</Link>
+        <Button onClick={() => navigate('/student-work')}>See More Student Work</Button>
       </section>
 
       <section className={styles['form']}>
-        <h2>Contact Me</h2>
+        <h2 className={styles['header']}>Contact Me</h2>
         <Form />
       </section>
     </>

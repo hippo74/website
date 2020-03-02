@@ -24,8 +24,8 @@
 
 main.home {
 
-  h2,
-  h2 a {
+  .header,
+  .header a {
     font-family: var(--serif);
     font-size: calc(1.75rem + 1.5vw);
     padding: 0 var(--padding);
@@ -38,7 +38,6 @@ main.home {
   }
 
   .art {
-
     section {
       display: flex;
       flex-wrap: wrap;
@@ -55,6 +54,15 @@ main.home {
           width: calc(25% - 2rem);
         }
       }
+    }
+  }
+
+  .art,
+  .papers {
+    button {
+      font-size: 1.5rem;
+      width: calc(100% - (2 * var(--padding)));
+      margin: var(--padding);
     }
   }
 

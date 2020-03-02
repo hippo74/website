@@ -66,23 +66,4 @@
       @include labelActive;
     }
   }
-
-  button {
-    display: block;
-    width: 100%;
-    transition: var(--transition);
-    color: var(--light);
-    background: var(--highlight);
-    border: none;
-    margin-top: 2rem;
-    font-size: 1.25em;
-    text-align: center;
-    padding: .33em;
-    font-family: var(--serif);
-    cursor: pointer;
-
-    &:hover {
-      background-color: var(--dark)
-    }
-  }
 }

@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 
+import Button from './button'
 import styles from './form.module.scss'
 
-const Form = props => {
+const Form = () => {
 
   const [ formValues, setFormValues ] = useState({})
 
@@ -67,9 +68,9 @@ const Form = props => {
         </label>
       </div>
 
-      <button type='submit'>
+      <Button type='submit'>
         Send
-      </button>
+      </Button>
     </form>
   )
 }

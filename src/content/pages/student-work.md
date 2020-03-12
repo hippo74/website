@@ -1,7 +1,7 @@
 ---
 name: student-work
 title: Student work
-text: this is the text that goes on the student art page
+text: ''
 gallery:
   - image: '/images/uploads/Community Art Academy, weaving, Davis Center copy.jpg'
     title: >-
